@@ -1,5 +1,5 @@
 import { DeliveryPartnerDAO } from '@src/dao/delivery-partner-dao'
-import { DeliveryPartner } from '@src/models/delivery-partner.model'
+import { DeliveryPartner } from '@src/models/delivery-partner/delivery-partner.model'
 import { DeliveryPartnerNotFoundException } from './exceptions/delivery-partner-not-found.exception'
 
 export type GetDeliveryPartnerOutput = Omit<DeliveryPartner, 'password'>

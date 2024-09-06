@@ -1,5 +1,5 @@
-import { EmailAlreadyInUseException } from '@src/use-cases/exceptions/email-already-in-use.exception'
-import { makeRegisterDeliveryPartnerUseCase } from '@src/use-cases/factories/make-register-delivery-partner-use-case'
+import { EmailAlreadyInUseException } from '@src/use-cases/delivery-partner/exceptions/email-already-in-use.exception'
+import { makeRegisterDeliveryPartnerUseCase } from '@src/use-cases/delivery-partner/factories/make-register-delivery-partner-use-case'
 import { FastifyReply, FastifyRequest } from 'fastify'
 import { z } from 'zod'
 

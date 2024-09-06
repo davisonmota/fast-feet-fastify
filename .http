@@ -1,5 +1,5 @@
 ###
-# @name authenticate
+# @name crete_delivery_partner
 POST http://localhost:3001/delivery-partner
 Content-Type: application/json
 

@@ -1,5 +1,5 @@
-import { EmptyFieldsException } from '@src/use-cases/exceptions/empty-fields.exception'
-import { makeEditDeliveryPartnerUseCase } from '@src/use-cases/factories/make-edit-delivery-partner-use-case'
+import { EmptyFieldsException } from '@src/use-cases/delivery-partner/exceptions/empty-fields.exception'
+import { makeEditDeliveryPartnerUseCase } from '@src/use-cases/delivery-partner/factories/make-edit-delivery-partner-use-case'
 import { FastifyReply, FastifyRequest } from 'fastify'
 import { z } from 'zod'
 

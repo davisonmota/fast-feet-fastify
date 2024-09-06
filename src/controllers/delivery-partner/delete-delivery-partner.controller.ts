@@ -1,5 +1,5 @@
-import { DeliveryPartnerNotFoundException } from '@src/use-cases/exceptions/delivery-partner-not-found.exception'
-import { makeDeleteDeliveryPartnerUseCase } from '@src/use-cases/factories/make-delete-delivery-partner-use-case'
+import { DeliveryPartnerNotFoundException } from '@src/use-cases/delivery-partner/exceptions/delivery-partner-not-found.exception'
+import { makeDeleteDeliveryPartnerUseCase } from '@src/use-cases/delivery-partner/factories/make-delete-delivery-partner-use-case'
 import { FastifyReply, FastifyRequest } from 'fastify'
 import { z } from 'zod'
 

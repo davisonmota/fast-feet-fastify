@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client'
-import { CreateDeliveryPartner } from '@src/models/create-delivery-partner.model'
-import { DeliveryPartner } from '@src/models/delivery-partner.model'
-import { UpdateDeliveryPartner } from '@src/models/update-delivery-partner.model'
+import { CreateDeliveryPartner } from '@src/models/delivery-partner/create-delivery-partner.model'
+import { DeliveryPartner } from '@src/models/delivery-partner/delivery-partner.model'
+import { UpdateDeliveryPartner } from '@src/models/delivery-partner/update-delivery-partner.model'
 
 export class DeliveryPartnerDAO {
   private readonly model: PrismaClient['deliveryPartner']
