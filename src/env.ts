@@ -5,6 +5,7 @@ const envSchema = z.object({
   NODE_ENV: z.enum(['dev', 'test', 'production']),
   DATABASE_URL: z.string().startsWith('postgresql://'),
   PORT: z.coerce.number(),
+  HASH_SALT_SECRET: z.coerce.number(),
 })
 
 const _env = envSchema.safeParse(process.env)

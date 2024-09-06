@@ -1,0 +1,11 @@
+###
+# @name authenticate
+POST http://localhost:3001/delivery-partner
+Content-Type: application/json
+
+{
+  "name": "Davison Mota",
+  "email": "davison@gmail.com",
+  "cpf": "097.289.890-59",
+  "password": "123456789"
+}
