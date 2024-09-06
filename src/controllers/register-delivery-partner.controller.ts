@@ -10,7 +10,7 @@ const registerDeliveryPartnerSchema = z.object({
   password: z.string(),
 })
 
-export async function deliveryPartnerController(
+export async function registerDeliveryPartnerController(
   req: FastifyRequest,
   rep: FastifyReply,
 ) {
