@@ -29,7 +29,7 @@ export async function editDeliveryPartnerController(
       deliveryPartnerId,
       editDeliveryPartnerData,
     )
-    return rep.status(201).send(deliveryPartnerUpdated)
+    return rep.status(200).send(deliveryPartnerUpdated)
   } catch (error) {
     if (error instanceof EmptyFieldsException) {
       return rep.status(400).send({ message: error.message })

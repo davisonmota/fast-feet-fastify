@@ -47,7 +47,7 @@ describe('EditDeliveryPartnerController', () => {
         email: 'updated-email@gmail.com',
         password: 'updated-123',
       })
-      .expect(201)
+      .expect(200)
 
     const deliveryPartnerUpdatedData = await prisma.deliveryPartner.findUnique({
       where: {

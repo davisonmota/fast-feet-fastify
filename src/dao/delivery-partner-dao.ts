@@ -42,4 +42,12 @@ export class DeliveryPartnerDAO {
       data,
     })
   }
+
+  async deleteById(id: string): Promise<void> {
+    await this.model.delete({
+      where: {
+        id,
+      },
+    })
+  }
 }
